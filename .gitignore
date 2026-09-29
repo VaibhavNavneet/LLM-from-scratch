@@ -1,0 +1,67 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Testing / coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Model checkpoints
+# =========================
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# =========================
+# Generated / processed data
+# =========================
+data/processed/
+
+# =========================
+# Tokenizer generated files
+# =========================
+data/tokenizer/
+
+# =========================
+# Experiment outputs
+# =========================
+experiments/*.log
+experiments/*.json
+
+# =========================
+# OS / IDE
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
+.env.*
+!.env.example
